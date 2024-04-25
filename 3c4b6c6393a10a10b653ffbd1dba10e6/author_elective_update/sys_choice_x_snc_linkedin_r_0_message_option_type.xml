@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_snc_linkedin_r_0_message_option" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="LinkedIn Recruiter Message Generator" source="x_snc_linkedin_r_0">3c4b6c6393a10a10b653ffbd1dba10e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LinkedIn Recruiter Message Generator">3c4b6c6393a10a10b653ffbd1dba10e6</sys_scope>
+            <sys_update_name>sys_choice_x_snc_linkedin_r_0_message_option_type</sys_update_name>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Clown</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:54:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:54:52</sys_updated_on>
+            <value>clown</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Clown signature</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>clown_signature</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dip day</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>dip_day</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dip suggest</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>dip_suggest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dip time</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>dip_time</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dip to chat</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>dip_to_chat</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dip way</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>dip_way</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flatter role</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>flatter_role</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flatter skill one</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>flatter_skill_one</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flatter skill two</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>flatter_skill_two</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flatter start</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>flatter_start</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flatter suggest</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>flatter_suggest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Greet adjective</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>greet_adjective</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Greet day</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>greet_day</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Greet end</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>greet_end</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intro adjective</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>intro_adjective</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intro change</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>intro_change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intro company</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>intro_company</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intro company flare</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>intro_company_flare</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intro company suffix</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>intro_company_suffix</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intro example</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>intro_example</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intro funds</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>intro_funds</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intro impact</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>intro_impact</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Salutation</label>
+            <language>en</language>
+            <name>x_snc_linkedin_r_0_message_option</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-04-19 18:15:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-04-19 18:15:06</sys_updated_on>
+            <value>salutation</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

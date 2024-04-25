@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">d54d21e393222110b653ffbd1dba1057</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2024-04-19 18:11:15</sys_created_on>
+        <sys_id>24ab64a393a10a10b653ffbd1dba1013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="LinkedIn Recruiter Message Generator" source="x_snc_linkedin_r_0">3c4b6c6393a10a10b653ffbd1dba10e6</sys_package>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2024-04-19 18:11:15</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

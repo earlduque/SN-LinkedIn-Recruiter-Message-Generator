@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_linkedin_r_0.RecruiterMessage</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>RecruiterMessage</name>
+        <script><![CDATA[var RecruiterMessage = Class.create();
+RecruiterMessage.prototype = {
+    initialize: function() {
+    },
+
+	generate: function(htmlOutput = false) {
+		const messageTypes = ["clown_signature","dip_day","dip_suggest","dip_time","dip_to_chat","dip_way","flatter_role","flatter_skill_one","flatter_skill_two","flatter_start","flatter_suggest","greet_adjective","greet_day","greet_end","intro_adjective","intro_change","intro_company","intro_company_flare","intro_company_suffix","intro_example","intro_funds","intro_impact","salutation","clown"];
+		const map = {};
+		for (let i of messageTypes){
+			map[i] = [];
+		}
+
+		const optionGr = new GlideRecord('x_snc_linkedin_r_0_message_option');
+		optionGr.orderBy('order');
+		optionGr.query();
+		while(optionGr.next()){
+			map[optionGr.getValue('type')].push(optionGr.getValue('output'));
+		}
+		
+		const results = {};
+		for (let i of messageTypes){
+			results[i] = map[i][Math.floor(Math.random() * map[i].length)];
+		}
+
+		const message = `${results.salutation}
+		
+Hope you're having ${results.greet_adjective} ${results.greet_day}! My ${results.intro_company} ${results.intro_company_flare}${results.intro_company_suffix}, a ${results.intro_adjective} ${results.intro_example}, has just raised ${results.intro_funds} ${results.intro_impact} ${results.intro_change}.
+
+${results.flatter_start} ${results.flatter_skill_one} and ${results.flatter_skill_two}, ${results.flatter_suggest} ${results.flatter_role}. ${results.dip_suggest} ${results.dip_way} ${results.dip_to_chat} — ${results.dip_time} ${results.dip_day}?
+
+${results.clown_signature}
+${results.clown}`;
+		return htmlOutput ? message.replace(/\n|\r/g,'<br>'): message;
+	},
+
+    type: 'RecruiterMessage'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2024-04-19 18:30:13</sys_created_on>
+        <sys_id>100d602793a10a10b653ffbd1dba1028</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>RecruiterMessage</sys_name>
+        <sys_package display_value="LinkedIn Recruiter Message Generator" source="x_snc_linkedin_r_0">3c4b6c6393a10a10b653ffbd1dba10e6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="LinkedIn Recruiter Message Generator">3c4b6c6393a10a10b653ffbd1dba10e6</sys_scope>
+        <sys_update_name>sys_script_include_100d602793a10a10b653ffbd1dba1028</sys_update_name>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2024-04-25 18:51:18</sys_updated_on>
+    </sys_script_include>
+</record_update>

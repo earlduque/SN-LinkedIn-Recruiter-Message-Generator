@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	
+	c.refresh = function(){
+		c.server.update();
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>linkedin_recruiter_generator</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>LinkedIn Recruiter Generator</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.testScript = new x_snc_linkedin_r_0.RecruiterMessage().generate(true);
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2024-04-25 18:42:30</sys_created_on>
+        <sys_id>555c6751c3354250c9bcbe2bb00131ac</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>LinkedIn Recruiter Generator</sys_name>
+        <sys_package display_value="LinkedIn Recruiter Message Generator" source="x_snc_linkedin_r_0">3c4b6c6393a10a10b653ffbd1dba10e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LinkedIn Recruiter Message Generator">3c4b6c6393a10a10b653ffbd1dba10e6</sys_scope>
+        <sys_update_name>sp_widget_555c6751c3354250c9bcbe2bb00131ac</sys_update_name>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2024-04-25 18:53:53</sys_updated_on>
+        <template><![CDATA[<div>
+  <h2>
+    ServiceNow LinkedIn Recruiter Message Generator
+  </h2>
+  <p>
+    What is this? A little toy I made that that generates a random message that you might receive from a recruiter looking for ServiceNow developer prospects for their clients. Just for fun ¯\_(ツ)_/¯ 
+  </p>
+</div>
+<hr>
+<div>
+  	<span ng-bind-html="data.testScript"></span>
+</div>
+<hr>
+<div>
+  <input type="button" value="Refresh" ng-click="c.refresh()">
+</div>
+<br>
+<div>
+  Made by Earl Duque. <a href="https://github.com/earlduque/SN-LinkedIn-Recruiter-Message-Generator" target="_blank">Link to source code</a>
+</div>]]></template>
+    </sp_widget>
+</record_update>

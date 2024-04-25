@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="708c24e393a10a10b653ffbd1dba105f" label="Message option" max_length="40" name="x_snc_linkedin_r_0_message_option" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Output" max_length="59" name="output" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Clown" value="clown"/>
+                <element inactive_on_update="false" label="Clown signature" value="clown_signature"/>
+                <element inactive_on_update="false" label="Dip day" value="dip_day"/>
+                <element inactive_on_update="false" label="Dip suggest" value="dip_suggest"/>
+                <element inactive_on_update="false" label="Dip time" value="dip_time"/>
+                <element inactive_on_update="false" label="Dip to chat" value="dip_to_chat"/>
+                <element inactive_on_update="false" label="Dip way" value="dip_way"/>
+                <element inactive_on_update="false" label="Flatter role" value="flatter_role"/>
+                <element inactive_on_update="false" label="Flatter skill one" value="flatter_skill_one"/>
+                <element inactive_on_update="false" label="Flatter skill two" value="flatter_skill_two"/>
+                <element inactive_on_update="false" label="Flatter start" value="flatter_start"/>
+                <element inactive_on_update="false" label="Flatter suggest" value="flatter_suggest"/>
+                <element inactive_on_update="false" label="Greet adjective" value="greet_adjective"/>
+                <element inactive_on_update="false" label="Greet day" value="greet_day"/>
+                <element inactive_on_update="false" label="Greet end" value="greet_end"/>
+                <element inactive_on_update="false" label="Intro adjective" value="intro_adjective"/>
+                <element inactive_on_update="false" label="Intro change" value="intro_change"/>
+                <element inactive_on_update="false" label="Intro company" value="intro_company"/>
+                <element inactive_on_update="false" label="Intro company flare" value="intro_company_flare"/>
+                <element inactive_on_update="false" label="Intro company suffix" value="intro_company_suffix"/>
+                <element inactive_on_update="false" label="Intro example" value="intro_example"/>
+                <element inactive_on_update="false" label="Intro funds" value="intro_funds"/>
+                <element inactive_on_update="false" label="Intro impact" value="intro_impact"/>
+                <element inactive_on_update="false" label="Salutation" value="salutation"/>
+            </choice>
+        </element>
+    </element>
+</database>
