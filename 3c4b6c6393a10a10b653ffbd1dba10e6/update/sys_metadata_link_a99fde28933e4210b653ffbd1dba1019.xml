@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>118c64e393a10a10b653ffbd1dba1021</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_linkedin_r_0_message_option">
+    <x_snc_linkedin_r_0_message_option action="INSERT_OR_UPDATE">
+        <number>MO0001027</number>
+        <order>700</order>
+        <output>AI-infused</output>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2024-04-19 18:15:07</sys_created_on>
+        <sys_id>118c64e393a10a10b653ffbd1dba1021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2024-04-19 18:15:07</sys_updated_on>
+        <type>intro_adjective</type>
+    </x_snc_linkedin_r_0_message_option>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2024-06-11 22:14:33</sys_created_on>
+        <sys_id>a99fde28933e4210b653ffbd1dba1019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MO0001027</sys_name>
+        <sys_package display_value="LinkedIn Recruiter Message Generator" source="x_snc_linkedin_r_0">3c4b6c6393a10a10b653ffbd1dba10e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LinkedIn Recruiter Message Generator">3c4b6c6393a10a10b653ffbd1dba10e6</sys_scope>
+        <sys_update_name>sys_metadata_link_a99fde28933e4210b653ffbd1dba1019</sys_update_name>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2024-06-11 22:14:33</sys_updated_on>
+        <tablename>x_snc_linkedin_r_0_message_option</tablename>
+    </sys_metadata_link>
+</record_update>
